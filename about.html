@@ -3,27 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <title>About Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            color: #222;
+        }
+        .header {
+            background: #177400;
+            color: #fbff00;
+            padding: 30px 0 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 60px;
+            margin-top: 40px;
+        }
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        table {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border: none;
+            width: 220px;
+            margin-bottom: 0;
+        }
+        th {
+            background: #177400;
+            color: #fbff00;
+            font-size: 1.1em;
+            padding: 12px;
+            border-radius: 10px 10px 0 0;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #000000;
+        }
+        .about-table {
+            width: 420px;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center; font-size: 3em;">About This Page</h1>
-    <div style="display: flex; justify-content: center; align-items: flex-start; gap: 50px; margin-top: 30px;">
-        <div style="display: flex; flex-direction: column; gap: 10px;">
-        <table border="4" style="width: 75pt; height: 100pt; text-align: left;">
-            <tr>
-                <th>Links</th>
-            </tr>
-            <tr>
-                <td><a href="index.html">Home</a></td>
-            </tr>
-            <tr>
-                <td><a href="contact.html">Contact</a></td>
-            </tr>
-            <tr>
-                <td><a href="FAQ.html">FAQ</a></td>
-        </table>
+    <div class="header">
+        <h1 style="margin: 0; font-size: 2.5em; font-weight: 700; letter-spacing: 1px;">About This Page</h1>
+        <p style="margin-top: 10px; font-size: 1.1em; font-weight: 400; color: #c5cae9;">Info Systems Management | Saint Vincent College</p>
     </div>
-        <!-- About table, explaining why this page exists -->
-        <table border="10" style="width: 450pt; height: 200pt; text-align: center;">
+    <div class="main-content">
+        <div class="sidebar">
+            <table>
+                <tr>
+                    <th>Links</th>
+                </tr>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                </tr>
+                <tr>
+                    <td><a href="contact.html">Contact</a></td>
+                </tr>
+                <tr>
+                    <td><a href="FAQ.html">FAQ</a></td>
+                </tr>
+            </table>
+        </div>
+        <table class="about-table">
             <tr style="height: 50px;">
                 <th>Group 5 Documentation System</th>
             </tr>
@@ -40,6 +102,6 @@
                 <td>Created by: Isaac Samsel, Jovany Philistin, and Shane Tomb</td>
             </tr>
         </table>
-        </div>
+    </div>
 </body>
 </html>

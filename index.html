@@ -3,15 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <title>Documentation/Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            color: #222;
+        }
+        .header {
+            background: #177400;
+            color: #fbff00;
+            padding: 30px 0 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 60px;
+            margin-top: 40px;
+        }
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        table {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border: none;
+            width: 220px;
+            margin-bottom: 0;
+        }
+        th {
+            background: #177400;
+            color: #fbff00;
+            font-size: 1.1em;
+            padding: 12px;
+            border-radius: 10px 10px 0 0;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #000000;
+        }
+        .documentation-table {
+            width: 320px;
+        }
+    </style>
 </head>
 
 <body>
-    <!--Title for the overarching documenation landing page-->
-    <h1 style="text-align: center; font-size: 3em;">Group 5 Documentation 2025</h1>
-    <div style="display: flex; justify-content: center; align-items: flex-start; gap: 60px; margin-top: 30px;">
-        <div style="display: flex; flex-direction: column; gap: 10px;">
-            <!--Table for the links to other pages within landing page-->
-            <table border="4" style="width: 75pt; height: 100pt; text-align: left;">
+    <div class="header">
+        <h1 style="margin: 0; font-size: 2.5em; font-weight: 700; letter-spacing: 1px;">Group 5 Documentation 2025</h1>
+        <p style="margin-top: 10px; font-size: 1.1em; font-weight: 400; color: #c5cae9;">Info Systems Management | Saint Vincent College</p>
+    </div>
+    <div class="main-content">
+        <div class="sidebar">
+            <table>
                 <tr>
                     <th>Links</th>
                 </tr>
@@ -25,25 +85,24 @@
                     <td><a href="contact.html">Contact</a></td>
                 </tr>
             </table>
-            <!--Link to the FAQ on creating FAQ-->
-            <table border="4" style="width:75pt; height: 100pt; text-align: left;">
+            <table>
                 <tr>
-                    <th style="text-align: left;">FAQ</th>
+                    <th>FAQ</th>
                 </tr>
                 <tr>
-                    <td><a href= "FAQ.html">FAQ on FAQ</a></td>
+                    <td><a href="FAQ.html">FAQ on FAQ</a></td>
                 </tr>
             </table>
         </div>
-        <!--These are the documentation links to each individual project throughout the semester-->
-        <table border="4" style="width: 250pt; height: 200pt; text-align: center;">
+        <table class="documentation-table">
             <tr>
                 <th>Documentation</th>
             </tr>
             <tr>
                 <td><a href="win11.html">VM Windows 11 Install</a></td>
             </tr>
-            <tr><td><a href="baseserver.html">Base Server Installation</a></td>
+            <tr>
+                <td><a href="baseserver.html">Base Server Installation</a></td>
             </tr>
         </table>
     </div>
