@@ -1648,6 +1648,25 @@ ol
 	{margin-bottom:0in;}
 ul
 	{margin-bottom:0in;}
+
+	.button {
+    	background: #177400;      /* same green as header */
+    	color: #fbff00;           /* same yellow as header text */
+    	font-family: 'Roboto', Arial, sans-serif;
+    	font-size: 1.1em;         /* slightly bigger */
+   		font-weight: 600;
+   		padding: 10px 20px;       /* makes it larger */
+    	border: none;
+    	border-radius: 8px;       /* smooth rounded edges */
+    	cursor: pointer;
+    	box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    	transition: background 0.3s ease, transform 0.2s ease;
+}
+
+	.button:hover {
+    	background: #145e00;   /* darker green on hover */
+    	transform: translateY(-2px);  /* subtle lift */
+	}
 -->
 </style>
 <!--[if gte mso 10]>
@@ -1705,6 +1724,10 @@ ul
 <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="text-align: left;">
+    <button class="button" onclick="location.href='index.html'">Home</button>
+</p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:20.0pt;line-height:115%'>Creating A Server on the VMware ESX

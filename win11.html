@@ -2052,6 +2052,25 @@ ol
 	{margin-bottom:0in;}
 ul
 	{margin-bottom:0in;}
+
+	.button {
+    	background: #177400;      /* same green as header */
+    	color: #fbff00;           /* same yellow as header text */
+    	font-family: 'Roboto', Arial, sans-serif;
+    	font-size: 1.1em;         /* slightly bigger */
+   		font-weight: 600;
+   		padding: 10px 20px;       /* makes it larger */
+    	border: none;
+    	border-radius: 8px;       /* smooth rounded edges */
+    	cursor: pointer;
+    	box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    	transition: background 0.3s ease, transform 0.2s ease;
+}
+
+	.button:hover {
+    	background: #145e00;   /* darker green on hover */
+    	transform: translateY(-2px);  /* subtle lift */
+	}
 -->
 </style>
 <!--[if gte mso 10]>
@@ -2100,6 +2119,10 @@ style='font-size:22.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:22.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align: left;">
+    <button class="button" onclick="location.href='index.html'">Home</button>
+</p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:22.0pt;line-height:115%'>How to Install Windows 11 on a ESXI VM
@@ -2178,8 +2201,8 @@ line-height:115%'><o:p></o:p></span></b></p>
 tab-stops:34.8pt'><![if !supportLists]><b><span style='mso-bidi-font-family:
 "Century Schoolbook";mso-bidi-theme-font:minor-latin'><span style='mso-list:
 Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span></b><![endif]>Select
-“Create / Register VM” above Virtual Machines<b><span style='font-size:22.0pt;
-line-height:115%'><span style='mso-tab-count:1'>     </span></span><o:p></o:p></b></p>
+ï¿½Create / Register VMï¿½ above Virtual Machines<b><span style='font-size:22.0pt;
+line-height:115%'><span style='mso-tab-count:1'>ï¿½ï¿½ï¿½ï¿½ </span></span><o:p></o:p></b></p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1067" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2194,12 +2217,12 @@ line-height:115%'><o:p></o:p></span></b></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Create a new virtual machine”</p>
+</span></span></span><![endif]>Select ï¿½Create a new virtual machineï¿½</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Next” in bottom right</p>
+</span></span></span><![endif]>Select ï¿½Nextï¿½ in bottom right</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2213,32 +2236,32 @@ src="win11_files/image085.png" v:shapes="_x0000_i1066"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Enter Machine name in “Name” box</p>
+</span></span></span><![endif]>Enter Machine name in ï¿½Nameï¿½ box</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Guest OS family” dropdown box</p>
+</span></span></span><![endif]>Select ï¿½Guest OS familyï¿½ dropdown box</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Windows”</p>
+</span></span></span><![endif]>Select ï¿½Windowsï¿½</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Guest OS version”</p>
+</span></span></span><![endif]>Select ï¿½Guest OS versionï¿½</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Microsoft Windows 10 (64-bit)</p>
+</span></span></span><![endif]>Select ï¿½Microsoft Windows 10 (64-bit)</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Next” in bottom right</p>
+</span></span></span><![endif]>Select ï¿½Nextï¿½ in bottom right</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1065" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2252,12 +2275,12 @@ v:shapes="_x0000_i1065"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>10.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“DataStore1”</p>
+ï¿½DataStore1ï¿½</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>11.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“Next” in bottom right</p>
+ï¿½Nextï¿½ in bottom right</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1064" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2271,22 +2294,22 @@ v:shapes="_x0000_i1064"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>12.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Find
-the “Network Adapter 1” tab toward the bottom of screen</p>
+the ï¿½Network Adapter 1ï¿½ tab toward the bottom of screen</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>13.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Change
-the tab “Dead bits” to “VM Network” for network access</p>
+the tab ï¿½Dead bitsï¿½ to ï¿½VM Networkï¿½ for network access</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>14.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Find
-the “CD/DVD Drive 1” tab below “Network Adapter 1”</p>
+the ï¿½CD/DVD Drive 1ï¿½ tab below ï¿½Network Adapter 1ï¿½</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>15.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-the “Datastore ISO file”</p>
+the ï¿½Datastore ISO fileï¿½</p>
 
 <p class=MsoListParagraphCxSpLast><o:p>&nbsp;</o:p></p>
 
@@ -2302,18 +2325,18 @@ v:shapes="_x0000_i1063"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>16.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Within
-the “Datastore browser” follow the path</p>
+the ï¿½Datastore browserï¿½ follow the path</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>17.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
-style='mso-spacerun:yes'> </span><b>ISO FILES\Windows 11\en-us_windows_11_business_editions_version_24h2_updated_july_2025_x64_dvd_d32522f0.iso</b>
-(should be the last DVD drive in the “Windows 11” folder</p>
+style='mso-spacerun:yes'>ï¿½</span><b>ISO FILES\Windows 11\en-us_windows_11_business_editions_version_24h2_updated_july_2025_x64_dvd_d32522f0.iso</b>
+(should be the last DVD drive in the ï¿½Windows 11ï¿½ folder</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>18.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“Select” in the bottom right corner</p>
+ï¿½Selectï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1062" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2327,7 +2350,7 @@ v:shapes="_x0000_i1062"><![endif]></span></p>
 <p class=MsoListParagraph style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>19.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“Finish” in the bottom right</p>
+ï¿½Finishï¿½ in the bottom right</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2345,7 +2368,7 @@ v:shapes="_x0000_i1061"><![endif]></span></p>
 <p class=MsoListParagraph style='text-indent:-.25in;mso-list:l7 level1 lfo2'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>20.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“Power on” at the top of the VM page</p>
+ï¿½Power onï¿½ at the top of the VM page</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2364,7 +2387,7 @@ v:shapes="_x0000_i1060"><![endif]></span></p>
 <p class=MsoListParagraph style='text-indent:-.25in;mso-list:l6 level1 lfo3'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Hit enter on highlighted “Boot normally”</p>
+</span></span></span><![endif]>Hit enter on highlighted ï¿½Boot normallyï¿½</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1059" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2378,7 +2401,7 @@ v:shapes="_x0000_i1059"><![endif]></span></p>
 <p class=MsoListParagraph style='text-indent:-.25in;mso-list:l6 level1 lfo3'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Previous Version of Setup” in bottom
+</span></span></span><![endif]>Select ï¿½Previous Version of Setupï¿½ in bottom
 left corner</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
@@ -2393,13 +2416,13 @@ v:shapes="_x0000_i1058"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l6 level1 lfo3'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Make sure that the top two is on “English
+</span></span></span><![endif]>Make sure that the top two is on ï¿½English
 (United States) and the last on US</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l6 level1 lfo3'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Next”</p>
+</span></span></span><![endif]>Select ï¿½Nextï¿½</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1057" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2413,7 +2436,7 @@ v:shapes="_x0000_i1057"><![endif]></span></p>
 <p class=MsoListParagraph style='text-indent:-.25in;mso-list:l6 level1 lfo3'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Install now” </p>
+</span></span></span><![endif]>Select ï¿½Install nowï¿½ </p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2430,12 +2453,12 @@ v:shapes="_x0000_i1056"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l6 level1 lfo3'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Windows 11 Pro Education” </p>
+</span></span></span><![endif]>Select ï¿½Windows 11 Pro Educationï¿½ </p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l6 level1 lfo3'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Next”</p>
+</span></span></span><![endif]>Select ï¿½Nextï¿½</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1055" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2466,8 +2489,8 @@ v:shapes="_x0000_i1054"><![endif]></span></p>
 <p class=MsoListParagraph style='text-indent:-.25in;mso-list:l6 level1 lfo3'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Once in the “Command Prompt” type <b>regedit</b>
-to access the “Registry Editor”</p>
+</span></span></span><![endif]>Once in the ï¿½Command Promptï¿½ type <b>regedit</b>
+to access the ï¿½Registry Editorï¿½</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1053" type="#_x0000_t75" alt="A screenshot of a computer program&#10;&#10;AI-generated content may be incorrect."
@@ -2507,7 +2530,7 @@ src="win11_files/image098.png" v:shapes="_x0000_i1052"><![endif]></span></p>
 
 <p class=MsoNormal>19. Select <b>DWORD (32-bit)<o:p></o:p></b></p>
 
-<p class=MsoNormal>20. Name DWORD “BypassTPMCheck”</p>
+<p class=MsoNormal>20. Name DWORD ï¿½BypassTPMCheckï¿½</p>
 
 <p class=MsoNormal>21. On your keyboard hit the <b>Enter</b> key</p>
 
@@ -2515,7 +2538,7 @@ src="win11_files/image098.png" v:shapes="_x0000_i1052"><![endif]></span></p>
 
 <p class=MsoNormal>23. Select <b>DWORD (32-bit)<o:p></o:p></b></p>
 
-<p class=MsoNormal>24. Name DWORD “BypassSecureBootCheck”</p>
+<p class=MsoNormal>24. Name DWORD ï¿½BypassSecureBootCheckï¿½</p>
 
 <p class=MsoNormal>25. On your keyboard hit the <b>Enter</b> key</p>
 
@@ -2523,7 +2546,7 @@ src="win11_files/image098.png" v:shapes="_x0000_i1052"><![endif]></span></p>
 
 <p class=MsoNormal>27. Select <b>DWORD (32-bit)<o:p></o:p></b></p>
 
-<p class=MsoNormal>28. Name DWORD “BypassRAMCheck”</p>
+<p class=MsoNormal>28. Name DWORD ï¿½BypassRAMCheckï¿½</p>
 
 <p class=MsoNormal>29. On your keyboard hit the <b>Enter</b> key</p>
 
@@ -2539,19 +2562,19 @@ v:shapes="_x0000_i1051"><![endif]></span></p>
 <p class=MsoNormal>30. Double click on an individual <b>DWORD</b> value you
 created</p>
 
-<p class=MsoNormal>31. Under “Value data:” change the 0 to a 1</p>
+<p class=MsoNormal>31. Under ï¿½Value data:ï¿½ change the 0 to a 1</p>
 
-<p class=MsoNormal>32. Select “OK” in the bottom right corner</p>
+<p class=MsoNormal>32. Select ï¿½OKï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal>33. Repeat this for the other two <b>DWORD</b> values you
 created</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>34. In the top right corner of the “Registry Editor” hit the
+<p class=MsoNormal>34. In the top right corner of the ï¿½Registry Editorï¿½ hit the
 X to close it</p>
 
-<p class=MsoNormal>35. In the top right corner of the “Command Prompt” hit the
+<p class=MsoNormal>35. In the top right corner of the ï¿½Command Promptï¿½ hit the
 X to close it</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
@@ -2575,9 +2598,9 @@ src="win11_files/image100.png"
 alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
 v:shapes="_x0000_i1049"><![endif]></span></p>
 
-<p class=MsoNormal>37. Select “Windows 11 Pro Education”</p>
+<p class=MsoNormal>37. Select ï¿½Windows 11 Pro Educationï¿½</p>
 
-<p class=MsoNormal>38. Select “Next” in the bottom right corner</p>
+<p class=MsoNormal>38. Select ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2590,7 +2613,7 @@ src="win11_files/image101.png"
 alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
 v:shapes="_x0000_i1048"><![endif]></span></p>
 
-<p class=MsoNormal>39. Select “Next” in the bottom right corner</p>
+<p class=MsoNormal>39. Select ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1047" type="#_x0000_t75" style='width:329.25pt;height:247.5pt;
@@ -2599,7 +2622,7 @@ v:shapes="_x0000_i1048"><![endif]></span></p>
 </v:shape><![endif]--><![if !vml]><img width=439 height=330
 src="win11_files/image102.png" v:shapes="_x0000_i1047"><![endif]></span></p>
 
-<p class=MsoNormal>40. Select “Custom: Install Windows only (advanced)”</p>
+<p class=MsoNormal>40. Select ï¿½Custom: Install Windows only (advanced)ï¿½</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1046" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2611,10 +2634,10 @@ alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
 v:shapes="_x0000_i1046"><![endif]></span></p>
 
 <p class=MsoNormal>41. Select whatever drive you want to install windows, in
-this case it is “Drive 0<span style='mso-spacerun:yes'>  </span>Unallocated
-Space”</p>
+this case it is ï¿½Drive 0<span style='mso-spacerun:yes'>ï¿½ </span>Unallocated
+Spaceï¿½</p>
 
-<p class=MsoNormal>42. Select “Next” in the bottom right corner</p>
+<p class=MsoNormal>42. Select ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1045" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2676,13 +2699,13 @@ v:shapes="Picture_x0020_1"><![endif]></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “United States” or whatever country or
+</span></span></span><![endif]>Select ï¿½United Statesï¿½ or whatever country or
 region your are in</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Yes” in the bottom right corner<br
+</span></span></span><![endif]>Select ï¿½Yesï¿½ in the bottom right corner<br
 clear=all style='mso-special-character:line-break'>
 </p>
 
@@ -2698,12 +2721,12 @@ v:shapes="_x0000_i1044"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Set up for work or school”</p>
+</span></span></span><![endif]>Select ï¿½Set up for work or schoolï¿½</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Next” in the bottom right corner</p>
+</span></span></span><![endif]>Select ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1043" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2717,12 +2740,12 @@ v:shapes="_x0000_i1043"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Sign-in options” under the sign in line</p>
+</span></span></span><![endif]>Select ï¿½Sign-in optionsï¿½ under the sign in line</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Next” in the bottom right corner</p>
+</span></span></span><![endif]>Select ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1042" type="#_x0000_t75" style='width:354.75pt;height:254.25pt;
@@ -2734,7 +2757,7 @@ src="win11_files/image108.png" v:shapes="_x0000_i1042"><![endif]></span></p>
 <p class=MsoListParagraph style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Domain join instead”</p>
+</span></span></span><![endif]>Select ï¿½Domain join insteadï¿½</p>
 
 <p class=MsoNormal style='margin-left:.25in'><o:p>&nbsp;</o:p></p>
 
@@ -2756,12 +2779,12 @@ style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp
 auto;text-indent:-.25in;mso-list:l0 level2 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Here we did “Group5Users”</p>
+</span></span></span><![endif]>Here we did ï¿½Group5Usersï¿½</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Next” in the bottom right corner</p>
+</span></span></span><![endif]>Select ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoListParagraphCxSpMiddle><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1040" type="#_x0000_t75" alt="A screenshot of a login screen&#10;&#10;AI-generated content may be incorrect."
@@ -2781,12 +2804,12 @@ your password </p>
 auto;text-indent:-.25in;mso-list:l0 level2 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Here we did “Rajah424!”</p>
+</span></span></span><![endif]>Here we did ï¿½Rajah424!ï¿½</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>11.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“Next” in the bottom right corner</p>
+ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoListParagraphCxSpMiddle><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1039" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2805,7 +2828,7 @@ your security question and enter the answer</p>
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>13.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“Next” in the bottom right corner</p>
+ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1038" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2824,7 +2847,7 @@ your security question and enter the answer</p>
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>15.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“Next” in the bottom right corner</p>
+ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2845,7 +2868,7 @@ your security question and enter the answer</p>
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>17.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“Next” in the bottom right corner</p>
+ï¿½Nextï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -2866,7 +2889,7 @@ scrolling down this page, turn off every tab that is on</p>
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo7'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>19.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Select
-“Accept” in the bottom right corner</p>
+ï¿½Acceptï¿½ in the bottom right corner</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="_x0000_i1035" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2890,7 +2913,7 @@ style='mso-list:Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal style='tab-stops:45.0pt'><span style='mso-tab-count:1'>               </span></p>
+<p class=MsoNormal style='tab-stops:45.0pt'><span style='mso-tab-count:1'>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ </span></p>
 
 <p class=MsoNormal style='tab-stops:45.0pt'><o:p>&nbsp;</o:p></p>
 
@@ -2927,18 +2950,18 @@ v:shapes="Picture_x0020_3"><![endif]></span></p>
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>In the search bar on the bottom of your screen search
-“Settings”</p>
+ï¿½Settingsï¿½</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo10'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Navigate to the “System” tab on the left side
+</span></span></span><![endif]>Navigate to the ï¿½Systemï¿½ tab on the left side
 and select it</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo10'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Then select “Activation”</p>
+</span></span></span><![endif]>Then select ï¿½Activationï¿½</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo10'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
@@ -2954,7 +2977,7 @@ style='mso-list:Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l3 level1 lfo10'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Next” in the bottom right of the tab</p>
+</span></span></span><![endif]>Select ï¿½Nextï¿½ in the bottom right of the tab</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_4" o:spid="_x0000_i1032" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -2981,13 +3004,13 @@ v:shapes="Picture_x0020_2"><![endif]><o:p></o:p></span></p>
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin;
 mso-no-proof:yes'><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='mso-no-proof:yes'>Within settings,
-navigate to “Windows Update” on the bottom of the left side<o:p></o:p></span></p>
+navigate to ï¿½Windows Updateï¿½ on the bottom of the left side<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo10'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin;
 mso-no-proof:yes'><span style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span style='mso-no-proof:yes'>Select “Install
-all” to update your new Windows OS.<o:p></o:p></span></p>
+</span></span></span><![endif]><span style='mso-no-proof:yes'>Select ï¿½Install
+allï¿½ to update your new Windows OS.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo10'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin;
@@ -3023,7 +3046,7 @@ line-height:115%'><o:p></o:p></span></b></p>
 <p class=MsoListParagraph style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Within VMware server select “Power off”</p>
+</span></span></span><![endif]>Within VMware server select ï¿½Power offï¿½</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_5" o:spid="_x0000_i1029" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -3039,7 +3062,7 @@ v:shapes="Picture_x0020_5"><![endif]><o:p></o:p></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Under “General Information” of your VM select
+</span></span></span><![endif]>Under ï¿½General Informationï¿½ of your VM select
 the </p>
 
 <p class=MsoListParagraphCxSpMiddle><o:p>&nbsp;</o:p></p>
@@ -3047,12 +3070,12 @@ the </p>
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>“Actions” icon of “Vmware tools” </p>
+</span></span></span><![endif]>ï¿½Actionsï¿½ icon of ï¿½Vmware toolsï¿½ </p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Hover over “Guest OS”<span style='mso-no-proof:
+</span></span></span><![endif]>Hover over ï¿½Guest OSï¿½<span style='mso-no-proof:
 yes'> <!--[if gte vml 1]><v:shape id="Picture_x0020_6" o:spid="_x0000_i1028"
  type="#_x0000_t75" alt="A screenshot of a computer menu&#10;&#10;AI-generated content may be incorrect."
  style='width:205.5pt;height:171.75pt;visibility:visible;mso-wrap-style:square'>
@@ -3065,7 +3088,7 @@ v:shapes="Picture_x0020_6"><![endif]></span></p>
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Install VMware tools”</p>
+</span></span></span><![endif]>Select ï¿½Install VMware toolsï¿½</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_1" o:spid="_x0000_i1027" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -3079,7 +3102,7 @@ v:shapes="Picture_x0020_1"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Select “Power on”</p>
+</span></span></span><![endif]>Select ï¿½Power onï¿½</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
@@ -3098,13 +3121,13 @@ v:shapes="Picture_x0020_7"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>In “File Explorer” find “DVD Drive (D:) VMware
-Tools”</p>
+</span></span></span><![endif]>In ï¿½File Explorerï¿½ find ï¿½DVD Drive (D:) VMware
+Toolsï¿½</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]>Find “setup” and double click the application</p>
+</span></span></span><![endif]>Find ï¿½setupï¿½ and double click the application</p>
 
 <p class=MsoNormal><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_8" o:spid="_x0000_i1025" type="#_x0000_t75" alt="A screenshot of a computer&#10;&#10;AI-generated content may be incorrect."
@@ -3118,22 +3141,22 @@ v:shapes="Picture_x0020_8"><![endif]></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>10.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>On
-this screen select “Complete”</p>
+this screen select ï¿½Completeï¿½</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>11.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Then
-select “Next &gt;”</p>
+select ï¿½Next &gt;ï¿½</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>12.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>On
-the following screen select “Install” to install the “VMware tools”</p>
+the following screen select ï¿½Installï¿½ to install the ï¿½VMware toolsï¿½</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l8 level1 lfo5'><![if !supportLists]><span
 style='mso-bidi-font-family:"Century Schoolbook";mso-bidi-theme-font:minor-latin'><span
 style='mso-list:Ignore'>13.<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>Once
-installed select “Restart” to restart your system</p>
+installed select ï¿½Restartï¿½ to restart your system</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
