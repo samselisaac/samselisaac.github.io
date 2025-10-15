@@ -6,6 +6,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
@@ -2071,6 +2072,45 @@ ul
     	background: #145e00;   /* darker green on hover */
     	transform: translateY(-2px);  /* subtle lift */
 	}
+
+	/* Responsive adjustments */
+        img { max-width: 100%; height: auto; }
+        @media (max-width: 900px) {
+            .main-content {
+                flex-direction: column;
+                gap: 24px;
+                margin-top: 20px;
+                align-items: stretch;
+            }
+            .sidebar, .documentation-table, table {
+                width: 100%;
+                max-width: 100%;
+            }
+            table {
+                margin: 0;
+            }
+        }
+        @media (max-width: 600px) {
+            .header {
+                padding: 20px 10px 14px 10px;
+            }
+            .header h1 {
+                font-size: 1.8em !important;
+            }
+            .header p {
+                font-size: 0.95em !important;
+            }
+            .button {
+                font-size: 1em;
+                padding: 12px 18px;
+            }
+            th {
+                font-size: 1em;
+            }
+            td {
+                padding: 8px;
+            }
+        }
 -->
 </style>
 <!--[if gte mso 10]>
